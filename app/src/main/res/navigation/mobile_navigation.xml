@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.diplom.notes.UserNotesFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_news"
+        android:name="com.example.diplom.feed.FeedFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_feed_line" />
+
+    <fragment
+        android:id="@+id/nav_schedule"
+        android:name="com.example.diplom.schedule.ScheduleFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_schedule" />
+    <fragment
+        android:id="@+id/nav_autorisation"
+        android:name="com.example.diplom.authorisation.AutorisationFragment"
+        android:label="@string/options"
+        tools:layout="@layout/fragment_autorisation">
+        <action
+            android:id="@+id/action_nav_autorisation_to_nav_schedule"
+            app:destination="@id/nav_schedule" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_pdf_reader"
+        android:name="com.example.diplom.reader.PdfReaderFragment"
+        android:label="PDFReader"
+        tools:layout="@layout/pdf_activity_main"/>
+</navigation>

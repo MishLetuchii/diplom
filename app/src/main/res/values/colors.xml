@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tvBackground">#337700</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <!-- <color name="note_red">#fc5d7b</color-->
+    <color name="fab_color">#9FBCFF</color>
+    <color name="note_purple">#EF97FF</color>
+    <color name="note_blue">#96B6FF</color>
+    <color name="note_green">#a0e8ca</color>
+    <color name="note_yellow">#e8e6a0</color>
+
+    <color name="news_gray">#C6C6C6</color>
+
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

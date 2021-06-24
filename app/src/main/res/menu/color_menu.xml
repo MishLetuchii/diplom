@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/white_note_menuitem"
+        android:icon="@color/white"
+        android:title="@string/white_menuitem_title" />
+    <item
+        android:id="@+id/blue_note_menuitem"
+        android:icon="@color/note_blue"
+        android:title="@string/blue_menuitem_title" />
+    <item
+        android:id="@+id/green_note_menuitem"
+        android:icon="@color/note_green"
+        android:title="@string/green_menuitem_title" />
+    <item
+        android:id="@+id/yellow_note_menuitem"
+        android:icon="@color/note_yellow"
+        android:title="@string/yellow_menuitem_title" />
+    <item
+        android:id="@+id/purple_note_menuitem"
+        android:icon="@color/note_purple"
+        android:title="@string/purple_menuitem_title" />
+</menu>

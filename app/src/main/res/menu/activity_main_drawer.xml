@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@android:drawable/stat_notify_chat"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_schedule"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/nav_autorisation"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/options" />
+        <item
+            android:id="@+id/nav_pdf_reader"
+            android:icon="@android:drawable/ic_input_get"
+            android:title="@string/menu_pdfReader" />
+    </group>
+</menu>
